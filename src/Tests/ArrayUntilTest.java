@@ -35,7 +35,7 @@ public class ArrayUntilTest {
         try {
             ArrayUntil.resize(null, -7);
         }
-        catch (ArrayNullExeption e) {
+        catch (ArrayNullException e) {
             assertTrue(true);
         }
     }

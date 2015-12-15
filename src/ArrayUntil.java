@@ -25,9 +25,9 @@ public class ArrayUntil {
         return foundItemsCopy;
     }
 
-    public static int[] resize(int[] elems, int newSize) throws ArrayNullExeption{
+    public static int[] resize(int[] elems, int newSize) throws ArrayNullException {
         if (elems == null) {
-            throw new ArrayNullExeption();
+            throw new ArrayNullException();
         }
 
         if (newSize == elems.length || newSize < 0) {
